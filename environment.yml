@@ -1,0 +1,20 @@
+name: astraFBP
+channels:
+  - astra-toolbox
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - astra-toolbox
+  - scipy
+  - matplotlib
+  - scikit-image
+  - pyqt
+  - pywavelets
+  - pip
+  - pip:
+    - "numpy<2"
+    - opencv-contrib-python
+    - tqdm
+    - torch
+    - gdown
